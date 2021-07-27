@@ -5,13 +5,13 @@
   }
 
 body {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     line-height: 1.3;
 }
 
 .boxed {
-  border: 3px solid #e96138
+  border: 3px solid #e96138;
 }
 
 header {
@@ -21,6 +21,14 @@ header {
     padding: 3%;
     background-color: var(--dark);
     color: var(--light);
+    width: 100%;
+    margin: 0 auto;
+}
+
+#leftSide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h1 {
@@ -54,7 +62,15 @@ nav a:hover {
   color: var(--light);
 }
 
+.sectionBox {
+  display: flex;
+  flex-direction: row;
+}
 
+#profile-pic {
+  width: 250px;
+  height: auto;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -63,7 +79,7 @@ nav a:hover {
     }
   
     main {
-      max-width: 1200px;
+      max-width: 100%;
     }
   }
   
