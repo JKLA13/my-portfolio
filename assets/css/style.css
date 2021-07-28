@@ -10,10 +10,6 @@ body {
     line-height: 1.3;
 }
 
-.boxed {
-  border: 3px solid #e96138;
-}
-
 header {
     display: flex;
     justify-content: space-around;
@@ -27,17 +23,22 @@ header {
 
 #leftSide {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+}
+
+#decBox {
+  border: 3px solid #e96138;
 }
 
 h1 {
   font-size: 200%;
+  margin: 0 0 0 10px;
 }
 
 h2 {
   margin: 2% 0;
   font-size: 250%;
+  background-color: var(--navlink-color);
 }
 
 a[href*='.css']::after {
@@ -52,7 +53,7 @@ nav ul {
 }
 
 nav a {
-  background-color: var (--dark);
+  background-color: var(--dark);
   color: var(--navlink-color);
   font-weight: bold;
   text-decoration: none;
@@ -62,15 +63,30 @@ nav a:hover {
   color: var(--light);
 }
 
-.sectionBox {
-  display: flex;
-  flex-direction: row;
+div {
+  margin: 2%;
 }
 
-#profile-pic {
+.sectionBox {
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+  justify-content:space-around;
+}
+
+#aboutMe, #myPortfolio {
+  background-color: var(--navlink-color);
+}
+
+#profile-pic, #game-pic {
   width: 250px;
   height: auto;
 }
+
+/* #game-pic {
+  width: 250px;
+  height: auto;
+} */
 
 
 @media screen and (max-width: 768px) {
