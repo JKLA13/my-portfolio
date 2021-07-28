@@ -74,19 +74,27 @@ div {
   justify-content:space-around;
 }
 
-#aboutMe, #myPortfolio {
-  background-color: var(--navlink-color);
-}
-
 #profile-pic, #game-pic {
   width: 250px;
   height: auto;
 }
 
-/* #game-pic {
-  width: 250px;
+#website1, #website2 {
+  width: 175px;
   height: auto;
-} */
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card2, .subCard {
+  display: flex;
+  flex-direction: column;
+
+}
+
 
 
 @media screen and (max-width: 768px) {
