@@ -4,6 +4,10 @@
     --navlink-color: #e96138;
   }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     /* display: flex;
     flex-direction: column; */
