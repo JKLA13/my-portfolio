@@ -96,7 +96,11 @@ div {
 .card2, .subCard {
   display: flex;
   flex-direction: column;
+}
 
+#contacts {
+  display: flex;
+  align-items: center;
 }
 
 
