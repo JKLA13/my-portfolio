@@ -1,6 +1,6 @@
 # My Portfolio
 
-Our second assignment was to build a functional website from scratch using HTML and CSS. The website is a portfolio for my work that I will continue to add projects to, as class progresses.
+Our second assignment was to build a functional website from scratch using HTML and CSS, combining knowledge we've learned in both. The website is a portfolio for my work that I will continue to add projects to, as class progresses.
 
 ## Tech used
 
@@ -15,5 +15,5 @@ Our second assignment was to build a functional website from scratch using HTML 
 
 ## Links
 
-- https://jkla13.github.io/code-refactory/
-- https://github.com/JKLA13/code-refactory
+- https://github.com/JKLA13/my-portfolio
+- https://jkla13.github.io/my-portfolio/
