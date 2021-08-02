@@ -10,8 +10,8 @@ Our second assignment was to build a functional website from scratch using HTML 
 
 ## Screenshots of Working Website
 
-![Screenshot1](assets/images/screen-cap1.png?raw=true "Screenshot1")
-![Screenshot2](assets/images/screen-cap2.png?raw=true "Screenshot2")
+![Screenshot1](assets/images/screen-cap1.PNG "Screenshot1")
+![Screenshot2](assets/images/screen-cap2.PNG "Screenshot2")
 
 ## Links
 
