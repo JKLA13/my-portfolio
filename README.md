@@ -11,7 +11,7 @@ Our second assignment was to build a functional website from scratch using HTML 
 ## Screenshots of Working Website
 
 ![Screenshot1](assets/images/screen-cap1.PNG "Screenshot1")
-![Screenshot2](assets/images/screen-cap2.PNG "Screenshot2")
+![Screenshot2](assets/images/jacob-adamson-portfolio.gif "Screenshot2")
 
 ## Links
 
